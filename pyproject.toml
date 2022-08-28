@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wisl"
+version = "0.1.0-beta"
+description = ""
+authors = ["Tushar Singh <tusharvickey1999@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.961"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
