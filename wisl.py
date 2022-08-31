@@ -20,7 +20,7 @@ def main():
     # remove_all_firewall_rules()
     add_firewall_rule(port, wait=wait)
     add_port_forwarding(wsl_ip=ip, listen_ip=LISTEN_ADDR, port=port, wait=wait)
-    # remove_firewall_rule(port, wait=False)
+    # remov_firewall_rule(port, wait=False)
 
 
 def get_wsl_ip() -> str:
